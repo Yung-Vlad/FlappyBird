@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(270deg, #31FA81 0%, #A939FF 100%);
+}
+
+canvas {
+    box-shadow: 0 0 5px black;
+    display: flex;
+    margin: 50px auto 10px;
+}
+
+.description {
+    width: 900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+.control {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
